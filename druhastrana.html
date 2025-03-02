@@ -11,6 +11,7 @@
             background-color: #2C3E50;
             margin: 0;
             padding: 0;
+            color: #fff; /* Set all text to white */
         }
 
         header {
@@ -40,7 +41,7 @@
         }
 
         h2 {
-            color: #FFFFFF;
+            color: #fff; /* Ensure h2 is white */
         }
 
         .facts {
@@ -49,6 +50,7 @@
             margin-top: 20px;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: #333; /* Set text color inside facts to dark for readability */
         }
 
         .facts ul {
@@ -56,7 +58,10 @@
             padding-left: 20px;
         }
 
-        
+        p, ul, li {
+            color: #fff; /* Ensure all text in paragraphs and lists is white */
+        }
+
     </style>
 </head>
 <body>
@@ -72,48 +77,6 @@
     </section>
 
     <section class="image-container">
-        <img src="data:image/jpeg;base64,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
-            " alt="Loch Ness Monster">
-    </section>
+        <img src="data:image/jpeg;base64,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
 
-    <section>
-        <h2>Historie a Příběhy</h2>
-        <p>První známý záznam o Loch Ness Monsterovi pochází z roku 565, kdy svatý Kolumba údajně zachránil člověka, který byl napaden podivným tvorem v Loch Ness. Nicméně, moderní zájem o Nessie začal až v roce 1933, kdy byla pořízena slavná "fotografie ploutve" a svědectví o obrovském, hadovitém tvoru plavajícím v jezeře.</p>
-        <p>Od té doby mnoho lidí tvrdí, že viděli Nessie, ale žádný vědecký důkaz nebyl nikdy potvrzen. Někteří lidé věří, že Loch Ness Monster je skutečným zvířetem, zatímco jiní se domnívají, že jde o legendu, kterou vytvořili místní obyvatelé pro turistický ruch.</p>
-    </section>
-
-    <section class="facts">
-        <h2>Fakta o Loch Ness Monsterovi</h2>
-        <ul>
-            <li>Loch Ness Monster je nejznámější a nejdéle trvající mýtus spojený s jezerem Loch Ness.</li>
-            <li>Podle některých teorií se může jednat o prehistorického plazovitého tvora, jako je plesiosaurus.</li>
-            <li>V roce 1934 byla pořízena slavná "fotografie doktora Wilsena", která byla později považována za podvod.</li>
-            <li>Výzkumníci provedli řadu expedic do Loch Ness, ale nikdy neobjevili žádné důkazy o existenci příšery.</li>
-            <li>Loch Ness a její okolí jsou známé svou krásnou přírodou a oblíbeným turistickým cílem, který přitahuje ročně tisíce návštěvníků.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Význam pro Kulturu</h2>
-        <p>Lochneská příšera je součástí nejen místní kultury, ale i globálního folklóru. Je symbolem tajemství a nevyřešených záhad, které fascinuje lidi po celém světě. Příběhy o Nessie jsou často součástí populární kultury, ať už jde o knihy, filmy nebo dokumenty, které se zaměřují na tuto záhadu.</p>
-    </section>
-
-    <section>
-        <h2>Možná vysvětlení a Teorie</h2>
-        <p>Existuje několik teorií o tom, co by Loch Ness Monster mohl být. Některé z nejpopulárnějších zahrnují:</p>
-        <ul>
-            <li><strong>Plesiosaurus:</strong> Někteří vědci se domnívají, že Loch Ness Monster může být přeživší plesiosaurus, prehistorická mořská příšera s dlouhým krkem.</li>
-            <li><strong>Vědecké podvody:</strong> Některé z nejznámějších fotografií jsou považovány za podvody, což vyvolává otázky o pravdivosti svědectví.</li>
-            <li><strong>Optické klamy:</strong> Někteří se domnívají, že vidění Nessie mohou být způsobena optickými klamy, například vlnami na hladině jezera, které se míchají s rybami nebo kmeny.</li>
-        </ul>
-    </section>
-</div>
-
-<footer>
-
-    
-</footer>
-
-</body>
-</html>
 
