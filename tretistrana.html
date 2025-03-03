@@ -3,51 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Závěrečné Shrnutí</title>
+    <title>Všechny fotky doposud zachycené</title>
     <style>
         body {
-            background-color: #222;
-            color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
             padding: 20px;
         }
         h1 {
-            color: lightgreen;
+            color: #333;
         }
-        .buttons {
-            margin-top: 20px;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
         }
-        .buttons a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            background-color: lightgreen;
-            color: black;
-            text-decoration: none;
+        .gallery img {
+            width: 300px;
+            height: auto;
             border-radius: 5px;
-            font-weight: bold;
-        }
-        .buttons a:hover {
-            background-color: green;
-            color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
-    <h1>Závěrečné Shrnutí</h1>
-    <p>Toto je poslední stránka, která shrnuje všechny důležité informace z předchozích stránek.</p>
-    <p>Stručné body shrnutí:</p>
-    <ul>
-        <li>Bod 1 - důležitá informace.</li>
-        <li>Bod 2 - další klíčový detail.</li>
-        <li>Bod 3 - shrnutí nejpodstatnějších faktů.</li>
-    </ul>
-    <div class="buttons">
-        <a href="index.html">Stránka 1</a>
-        <a href="druhastrana.html">Stránka 2</a>
-        <a href="tretistrana.html">Stránka 3</a>
+    <h1>Všechny fotky doposud zachycené</h1>
+    <div class="gallery">
+        <img src="nessie1.jpg" alt="Fotka Nessie 1">
+        <img src="nessie2.jpg" alt="Fotka Nessie 2">
+        <img src="nessie3.jpg" alt="Fotka Nessie 3">
+        <img src="nessie4.jpg" alt="Fotka Nessie 4">
     </div>
 </body>
 </html>
+
 
